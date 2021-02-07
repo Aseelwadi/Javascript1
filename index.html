@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <Title> Introduction to JS</Title>
+    <script type="text/javascript" src="styles/style.js"></script>  
+</head>
+
+<body>
+<header>
+
+    <h1 style="text-align: center;">Dynamic Component-JS</h1>
+  
+</header> 
+
+
+<main>  
+    <h2 style="color: blueviolet;"> 1- Window prompt() Method  example  </h2>
+    <script>
+    var drink = prompt ("Please enter your favourit juice name", "juice name");
+
+if (drink != null) {
+  document.write("great  " + drink + "! is so delicous :)") ;
+
+}
+</script>
+
+
+ <hr>
+
+ <hr>
+
+<h2 style="color: blueviolet;"> 2- Window prompt() Method with if statment  example   </h2>
+<script>
+var age = prompt ("Please enter your Age ");
+
+if (age != null) {
+if (age <= 15 ){
+    document.write(age +"^_^  Enjoy your Chilhood and prepare yourself to be a great person in the future :) ") ;
+}
+else if (age >15 && age<50)
+{document.write(age +" ^_^ you are at the right age to be creative :) ") ;}
+else
+{
+    document.write(age +" ^_^ Thank you for every thing you have done . It's time to give advices :) ") ;  
+}
+
+}
+</script>
+
+<hr >
+<h2 style="color: blueviolet;"> 3- Window confirm() Method  example  </h2>
+<p> The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button.
+
+    A confirm box is often used if you want the user to verify or accept something.
+    
+    Note: The confirm box takes the focus away from the current window, and forces the browser to read the message. Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is closed.
+    
+    The confirm() method returns true if the user clicked "OK", and false otherwise.<br></p>
+ .........................
+    <p>Click the button if you understand the meaning of confirm box.</p>
+
+    <button onclick="myFunction()">Check</button>
+    
+    <script>
+    function myFunction() {
+      confirm("Press a button!");
+    }
+    </script>
+
+<hr>
+<h2 style="color: blueviolet;">4-Alert example </h2>
+<p>Welcome to ASAC</p>  
+<form>  
+<input type="button" value="click" onclick="msg()"/>  
+</form>  
+</main>
+
+</body>
+
+
+
+</html>
