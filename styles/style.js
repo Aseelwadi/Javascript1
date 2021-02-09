@@ -1,4 +1,4 @@
-// alert("Hello ASAC Student ");  
+ alert("Hello ASAC Student ");  
 // var time = prompt (" Whats the time now , Enter the hours just please :) ");
 // while(time > 23)
 // {
